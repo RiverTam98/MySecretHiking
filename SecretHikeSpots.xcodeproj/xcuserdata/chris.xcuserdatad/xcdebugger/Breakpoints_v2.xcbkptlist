@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6B7C0769-6648-4C6F-A6E8-63875B88CAB1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F28D22D9-8907-4D8E-A141-1A4DFB6B4196"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "delete(spot:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F28D22D9-8907-4D8E-A141-1A4DFB6B4196 - 83d90ee95f676504"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpots.HikeSpotService.delete(spot: SecretHikeSpots.HikeSpot) async -&gt; ()"
+                  moduleName = "SecretHikeSpots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/SecretHikeSpots/Services/HikeSpotService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "F28D22D9-8907-4D8E-A141-1A4DFB6B4196 - 3a7e1e7c43cf7e30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for SecretHikeSpots.HikeSpotService.delete(spot: SecretHikeSpots.HikeSpot) async -&gt; ()"
+                  moduleName = "SecretHikeSpots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/SecretHikeSpots/Services/HikeSpotService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9918839-D8C2-4AFA-A364-1BE1E5D777A6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "delete(spot:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C9918839-D8C2-4AFA-A364-1BE1E5D777A6 - 95b9f221fcfb6815"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable () async -&gt; Swift.Array&lt;SecretHikeSpots.HikeSpot&gt; in SecretHikeSpots.HikeSpotService.delete(spot: SecretHikeSpots.HikeSpot) async -&gt; ()"
+                  moduleName = "SecretHikeSpots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/SecretHikeSpots/Services/HikeSpotService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "C9918839-D8C2-4AFA-A364-1BE1E5D777A6 - 6256765ad86c0692"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #2 @Sendable () async -&gt; Swift.Array&lt;SecretHikeSpots.HikeSpot&gt; in SecretHikeSpots.HikeSpotService.delete(spot: SecretHikeSpots.HikeSpot) async -&gt; ()"
+                  moduleName = "SecretHikeSpots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/SecretHikeSpots/Services/HikeSpotService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B0F8E25-E447-454E-B654-575E5759C604"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "fetchSavedHikeSpots(updateCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00725FB6-1B93-4D2F-84A2-0DB1B3E69C25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "save(spot:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96556845-AEAC-4113-AAF2-266C7C1DCACD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "save(spot:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96556845-AEAC-4113-AAF2-266C7C1DCACD - 62efdd6f746eea9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; Swift.Array&lt;SecretHikeSpots.HikeSpot&gt; in SecretHikeSpots.HikeSpotService.save(spot: SecretHikeSpots.HikeSpot) async -&gt; ()"
+                  moduleName = "SecretHikeSpots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/SecretHikeSpots/Services/HikeSpotService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "96556845-AEAC-4113-AAF2-266C7C1DCACD - 56fafe447ccdb54e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for closure #1 @Sendable () async -&gt; Swift.Array&lt;SecretHikeSpots.HikeSpot&gt; in SecretHikeSpots.HikeSpotService.save(spot: SecretHikeSpots.HikeSpot) async -&gt; ()"
+                  moduleName = "SecretHikeSpots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/SecretHikeSpots/Services/HikeSpotService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F727906-D616-4E00-818E-7272E2296B91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "delete(spot:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85D8A0F1-BDE9-479A-AB2A-CFEAD441CD0E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "fetchSavedHikeSpots(updateCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC6EC30A-ED5F-4DCE-8A29-A9B4FA4DD6E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "fetchSavedHikeSpots(updateCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "683E7520-12D4-43EE-9AFA-F1964B9B562A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacesToVisitAppTests/HikeSportServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "testLoadDataAndSubscribeToUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "683E7520-12D4-43EE-9AFA-F1964B9B562A - 12b8f204eff28768"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "1168">
+               </Location>
+               <Location
+                  uuid = "683E7520-12D4-43EE-9AFA-F1964B9B562A - 12b8f204eff28749"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "1168">
+               </Location>
+               <Location
+                  uuid = "683E7520-12D4-43EE-9AFA-F1964B9B562A - 12b8f204eff2899b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "1440">
+               </Location>
+               <Location
+                  uuid = "683E7520-12D4-43EE-9AFA-F1964B9B562A - 12b8f204eff28917"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8866F2D4-76D5-4E74-A28D-B715A1B159C5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "loadDataAndSubscribeToUpdates()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43E3F880-2D6B-4179-B447-A3FE38EF8546"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "fetchSavedHikeSpots(updateCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDBF70A5-02A4-4511-927F-522AF299FBB6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "fetchSavedHikeSpots(updateCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5096C43-DB31-4449-B874-E0535BB1B191"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "fetchSavedHikeSpots(updateCache:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B5096C43-DB31-4449-B874-E0535BB1B191 - acc435a037257d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Sendable () async -&gt; () in SecretHikeSpots.HikeSpotService.fetchSavedHikeSpots(updateCache: Swift.Bool) async -&gt; Swift.Array&lt;SecretHikeSpots.HikeSpot&gt;"
+                  moduleName = "SecretHikeSpots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/SecretHikeSpots/Services/HikeSpotService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1152">
+               </Location>
+               <Location
+                  uuid = "B5096C43-DB31-4449-B874-E0535BB1B191 - 668fd24d17d55cff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in SecretHikeSpots.HikeSpotService.fetchSavedHikeSpots(updateCache: Swift.Bool) async -&gt; Swift.Array&lt;SecretHikeSpots.HikeSpot&gt;"
+                  moduleName = "SecretHikeSpots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/SecretHikeSpots/Services/HikeSpotService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "B5096C43-DB31-4449-B874-E0535BB1B191 - c0ea96971140faf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for closure #2 @Sendable () async -&gt; () in SecretHikeSpots.HikeSpotService.fetchSavedHikeSpots(updateCache: Swift.Bool) async -&gt; Swift.Array&lt;SecretHikeSpots.HikeSpot&gt;"
+                  moduleName = "SecretHikeSpots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/SecretHikeSpots/Services/HikeSpotService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAC26C43-2823-4FAF-BBFC-F69F5DE12821"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "fetchSavedHikeSpots(updateCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77711B76-7DA5-486F-AA6D-E60024B8A9A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacesToVisitAppTests/HikeSportServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "testLoadDataAndSubscribeToUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "77711B76-7DA5-486F-AA6D-E60024B8A9A2 - 12b8f204eff28a80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "868">
+               </Location>
+               <Location
+                  uuid = "77711B76-7DA5-486F-AA6D-E60024B8A9A2 - 12b8f204eff28a80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "77711B76-7DA5-486F-AA6D-E60024B8A9A2 - 12b8f204eff28a80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "77711B76-7DA5-486F-AA6D-E60024B8A9A2 - 12b8f204eff289fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "748">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7102DFBB-C54F-4CC9-BB43-6D37BA4202FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacesToVisitAppTests/HikeSportServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "testLoadDataAndSubscribeToUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7102DFBB-C54F-4CC9-BB43-6D37BA4202FE - 12b8f204eff28768"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "1168">
+               </Location>
+               <Location
+                  uuid = "7102DFBB-C54F-4CC9-BB43-6D37BA4202FE - 12b8f204eff289dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1044">
+               </Location>
+               <Location
+                  uuid = "7102DFBB-C54F-4CC9-BB43-6D37BA4202FE - 12b8f204eff289dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1300">
+               </Location>
+               <Location
+                  uuid = "7102DFBB-C54F-4CC9-BB43-6D37BA4202FE - 12b8f204eff28959"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BE9170B-30DE-4F83-A116-1F3371728476"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "loadDataAndSubscribeToUpdates()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3461D9E7-8D6C-48BA-BD5C-E8B3F327936E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "HikeSpotService"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AF3EC66-304A-4BAF-BA7B-0911AB52EFD2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacesToVisitAppTests/HikeSportServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "testLoadDataAndSubscribeToUpdates()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8AF3EC66-304A-4BAF-BA7B-0911AB52EFD2 - 12b8f204eff28b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "8AF3EC66-304A-4BAF-BA7B-0911AB52EFD2 - 12b8f204eff28b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "8AF3EC66-304A-4BAF-BA7B-0911AB52EFD2 - 12b8f204eff28b69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "8AF3EC66-304A-4BAF-BA7B-0911AB52EFD2 - 12b8f204eff28b27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SecretHikeSpotsTests.HikeSportServiceTests.testLoadDataAndSubscribeToUpdates() async -&gt; ()"
+                  moduleName = "SecretHikeSpotsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chris/code/PlacesToVisitApp/PlacesToVisitAppTests/HikeSportServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D52D8AE-226D-4FA5-809B-2C68F02AAC86"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacesToVisitAppTests/HikeSportServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "testLoadDataAndSubscribeToUpdates()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EC9CFB5-3C4F-47B6-888A-168CB78E5AB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlacesToVisitAppTests/PlacesListViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "testListShowsPlaces()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37F65EA5-7C81-4309-B31B-FDC106EFE9DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecretHikeSpots/Services/HikeSpotService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "fetchSavedHikeSpots(updateCache:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
