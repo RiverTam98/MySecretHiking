@@ -49,7 +49,7 @@ extension SecretHikeSpotsXCUITestsBase {
     }
     
     func thenIShouldHaveCreatedAHikingSpot(){
-        HomeScreen.saveHikingSpotCells.waitForExistence(timeout: 10)
+        HomeScreen.saveHikingSpotCellsGlasvegas.waitForExistence(timeout: 10)
     }
 
     func givenIHaveHikingSpotsSaved(){
@@ -73,22 +73,16 @@ extension SecretHikeSpotsXCUITestsBase {
     }
     
     func andTheListIsShowingTheNewestFirst(){
-        //assert table list location? tablesQuery
-        HomeScreen.saveHikingSpotCells.waitForExistence(timeout: 10)
+        HomeScreen.saveHikingSpotCellsEdinburgh.waitForExistence(timeout: 10)
     }
     
     func whenISwipteToDelete(){
-        //app.tables.containing(.cell, identifier:"Near Glasvegas, Map pin, Legal").element.swipeLeft()
-        //tablesQuery/*@START_MENU_TOKEN@*/.buttons["Delete"]/*[[".cells[\"Near Glasvegas, Legal\"].buttons[\"Delete\"]",".buttons[\"Delete\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        HomeScreen.saveHikingSpotCellsEdinburgh.longSwipe()
+        HomeScreen.deleteHikingSpotButton.tap()
     }
     
     func thenTheHikingSpotShouldBeDeleted(){
-     
-        //another kind of assert table list location? tablesQuery
+        XCTAssertFalse(HomeScreen.saveHikingSpotCellsGlasvegas.exists)
     }
-    
-    //can use other apps?
-    //tablesQuery.cells["Near Glasvegas, Map pin, Legal"].children(matching: .other).element(boundBy: 0).tap()
-    //        app/*@START_MENU_TOKEN@*/.scrollViews.otherElements.statusBars.buttons["breadcrumb"]/*[[".windows[\"SBSwitcherWindow\"]",".otherElements[\"AppSwitcherContentView\"]",".otherElements[\"Maps\"].scrollViews.otherElements.statusBars",".buttons[\"Return to SecretHikeSpots\"]",".buttons[\"breadcrumb\"]",".otherElements[\"card:com.apple.Maps:sceneID:com.apple.Maps-5DF58A93-8C27-4BB4-8E21-60D6F1CCC4FB\"].scrollViews.otherElements.statusBars",".scrollViews.otherElements.statusBars"],[[[-1,6,3],[-1,5,3],[-1,2,3],[-1,1,2],[-1,0,1]],[[-1,6,3],[-1,5,3],[-1,2,3],[-1,1,2]],[[-1,6,3],[-1,5,3],[-1,2,3]],[[-1,4],[-1,3]]],[0,0]]@END_MENU_TOKEN@*/.tap()
 }
 

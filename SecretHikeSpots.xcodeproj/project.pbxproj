@@ -15,6 +15,7 @@
 		38EDF257296AD476004415FA /* MapViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF256296AD476004415FA /* MapViewScreen.swift */; };
 		38EDF259296AD486004415FA /* LocationAlertScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF258296AD486004415FA /* LocationAlertScreen.swift */; };
 		38EDF25B296AD4A1004415FA /* AddLocationHudScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF25A296AD4A1004415FA /* AddLocationHudScreen.swift */; };
+		38EDF25D296B571A004415FA /* LongSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF25C296B571A004415FA /* LongSwipe.swift */; };
 		833C46D1289A729200E07768 /* PickerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C46D0289A729100E07768 /* PickerOverlay.swift */; };
 		833C46D3289A731B00E07768 /* HikeSportServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C46D2289A731B00E07768 /* HikeSportServiceTests.swift */; };
 		83507CBB288EBE4500954A78 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83507CBA288EBE4500954A78 /* LocationPickerViewController.swift */; };
@@ -60,6 +61,7 @@
 		38EDF256296AD476004415FA /* MapViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewScreen.swift; sourceTree = "<group>"; };
 		38EDF258296AD486004415FA /* LocationAlertScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlertScreen.swift; sourceTree = "<group>"; };
 		38EDF25A296AD4A1004415FA /* AddLocationHudScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationHudScreen.swift; sourceTree = "<group>"; };
+		38EDF25C296B571A004415FA /* LongSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongSwipe.swift; sourceTree = "<group>"; };
 		833C46D0289A729100E07768 /* PickerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerOverlay.swift; sourceTree = "<group>"; };
 		833C46D2289A731B00E07768 /* HikeSportServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeSportServiceTests.swift; sourceTree = "<group>"; };
 		83507CBA288EBE4500954A78 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				38EDF241296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift */,
 				38EDF24E296AD3EC004415FA /* Screen.swift */,
+				38EDF25C296B571A004415FA /* LongSwipe.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38EDF25B296AD4A1004415FA /* AddLocationHudScreen.swift in Sources */,
+				38EDF25D296B571A004415FA /* LongSwipe.swift in Sources */,
 				38EDF242296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift in Sources */,
 				38EDF255296AD461004415FA /* HomeScreen.swift in Sources */,
 				38EDF259296AD486004415FA /* LocationAlertScreen.swift in Sources */,
