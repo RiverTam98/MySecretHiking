@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		38EDF242296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF241296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift */; };
 		38EDF24F296AD3EC004415FA /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF24E296AD3EC004415FA /* Screen.swift */; };
-		38EDF251296AD417004415FA /* CreateHikingSpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF250296AD417004415FA /* CreateHikingSpotTests.swift */; };
-		38EDF253296AD447004415FA /* CreateHikingSpotSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF252296AD447004415FA /* CreateHikingSpotSteps.swift */; };
+		38EDF251296AD417004415FA /* HikingSpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF250296AD417004415FA /* HikingSpotTests.swift */; };
+		38EDF253296AD447004415FA /* HikingSpotSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF252296AD447004415FA /* HikingSpotSteps.swift */; };
 		38EDF255296AD461004415FA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF254296AD461004415FA /* HomeScreen.swift */; };
 		38EDF257296AD476004415FA /* MapViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF256296AD476004415FA /* MapViewScreen.swift */; };
 		38EDF259296AD486004415FA /* LocationAlertScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF258296AD486004415FA /* LocationAlertScreen.swift */; };
@@ -54,8 +54,8 @@
 		38EDF23F296AD21B004415FA /* SecretHikeSpotsXCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretHikeSpotsXCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EDF241296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretHikeSpotsXCUITestsBase.swift; sourceTree = "<group>"; };
 		38EDF24E296AD3EC004415FA /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
-		38EDF250296AD417004415FA /* CreateHikingSpotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHikingSpotTests.swift; sourceTree = "<group>"; };
-		38EDF252296AD447004415FA /* CreateHikingSpotSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHikingSpotSteps.swift; sourceTree = "<group>"; };
+		38EDF250296AD417004415FA /* HikingSpotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingSpotTests.swift; sourceTree = "<group>"; };
+		38EDF252296AD447004415FA /* HikingSpotSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingSpotSteps.swift; sourceTree = "<group>"; };
 		38EDF254296AD461004415FA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		38EDF256296AD476004415FA /* MapViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewScreen.swift; sourceTree = "<group>"; };
 		38EDF258296AD486004415FA /* LocationAlertScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlertScreen.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		38EDF24B296AD391004415FA /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				38EDF250296AD417004415FA /* CreateHikingSpotTests.swift */,
+				38EDF250296AD417004415FA /* HikingSpotTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 		38EDF24C296AD399004415FA /* Steps */ = {
 			isa = PBXGroup;
 			children = (
-				38EDF252296AD447004415FA /* CreateHikingSpotSteps.swift */,
+				38EDF252296AD447004415FA /* HikingSpotSteps.swift */,
 			);
 			path = Steps;
 			sourceTree = "<group>";
@@ -372,8 +372,8 @@
 				38EDF242296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift in Sources */,
 				38EDF255296AD461004415FA /* HomeScreen.swift in Sources */,
 				38EDF259296AD486004415FA /* LocationAlertScreen.swift in Sources */,
-				38EDF253296AD447004415FA /* CreateHikingSpotSteps.swift in Sources */,
-				38EDF251296AD417004415FA /* CreateHikingSpotTests.swift in Sources */,
+				38EDF253296AD447004415FA /* HikingSpotSteps.swift in Sources */,
+				38EDF251296AD417004415FA /* HikingSpotTests.swift in Sources */,
 				38EDF24F296AD3EC004415FA /* Screen.swift in Sources */,
 				38EDF257296AD476004415FA /* MapViewScreen.swift in Sources */,
 			);
