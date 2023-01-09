@@ -1,6 +1,9 @@
 # job-challenge-auto-tester-iOS
 
-This repository hosts the challenge for Gail Phillips applying for the Automated Tester - iOS role.  
+This repository hosts the challenge for Gail Phillips applying for the Automated Tester - iOS role.
+
+Gail Phillips - My Hiking Spot Challenge first commit video
+https://www.loom.com/share/c095bd4bade74fe5a370d1eccb599491  
 
 ## Tests at different levels 
 
