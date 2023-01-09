@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38EDF242296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF241296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift */; };
+		38EDF24F296AD3EC004415FA /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF24E296AD3EC004415FA /* Screen.swift */; };
+		38EDF251296AD417004415FA /* HikingSpotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF250296AD417004415FA /* HikingSpotTests.swift */; };
+		38EDF253296AD447004415FA /* HikingSpotSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF252296AD447004415FA /* HikingSpotSteps.swift */; };
+		38EDF255296AD461004415FA /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF254296AD461004415FA /* HomeScreen.swift */; };
+		38EDF257296AD476004415FA /* MapViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF256296AD476004415FA /* MapViewScreen.swift */; };
+		38EDF259296AD486004415FA /* LocationAlertScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF258296AD486004415FA /* LocationAlertScreen.swift */; };
+		38EDF25B296AD4A1004415FA /* AddLocationHudScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF25A296AD4A1004415FA /* AddLocationHudScreen.swift */; };
+		38EDF25D296B571A004415FA /* LongSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF25C296B571A004415FA /* LongSwipe.swift */; };
+		38EDF25F296C8CA7004415FA /* RandomName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF25E296C8CA7004415FA /* RandomName.swift */; };
 		833C46D1289A729200E07768 /* PickerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C46D0289A729100E07768 /* PickerOverlay.swift */; };
 		833C46D3289A731B00E07768 /* HikeSportServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C46D2289A731B00E07768 /* HikeSportServiceTests.swift */; };
 		83507CBB288EBE4500954A78 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83507CBA288EBE4500954A78 /* LocationPickerViewController.swift */; };
@@ -26,14 +36,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83A087AA288AC769003BCC85 /* PBXContainerItemProxy */ = {
+		38EDF245296AD21B004415FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83A0878B288AC767003BCC85 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 83A08792288AC767003BCC85;
-			remoteInfo = PlacesToVisitApp;
+			remoteInfo = SecretHikeSpots;
 		};
-		83A087B4288AC769003BCC85 /* PBXContainerItemProxy */ = {
+		83A087AA288AC769003BCC85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83A0878B288AC767003BCC85 /* Project object */;
 			proxyType = 1;
@@ -43,6 +53,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38EDF23F296AD21B004415FA /* SecretHikeSpotsXCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretHikeSpotsXCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EDF241296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretHikeSpotsXCUITestsBase.swift; sourceTree = "<group>"; };
+		38EDF24E296AD3EC004415FA /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		38EDF250296AD417004415FA /* HikingSpotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingSpotTests.swift; sourceTree = "<group>"; };
+		38EDF252296AD447004415FA /* HikingSpotSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingSpotSteps.swift; sourceTree = "<group>"; };
+		38EDF254296AD461004415FA /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		38EDF256296AD476004415FA /* MapViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewScreen.swift; sourceTree = "<group>"; };
+		38EDF258296AD486004415FA /* LocationAlertScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlertScreen.swift; sourceTree = "<group>"; };
+		38EDF25A296AD4A1004415FA /* AddLocationHudScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationHudScreen.swift; sourceTree = "<group>"; };
+		38EDF25C296B571A004415FA /* LongSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongSwipe.swift; sourceTree = "<group>"; };
+		38EDF25E296C8CA7004415FA /* RandomName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomName.swift; sourceTree = "<group>"; };
 		833C46D0289A729100E07768 /* PickerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerOverlay.swift; sourceTree = "<group>"; };
 		833C46D2289A731B00E07768 /* HikeSportServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeSportServiceTests.swift; sourceTree = "<group>"; };
 		83507CBA288EBE4500954A78 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +77,6 @@
 		83A087A2288AC769003BCC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A087A4288AC769003BCC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A087A9288AC769003BCC85 /* SecretHikeSpotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretHikeSpotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83A087B3288AC769003BCC85 /* SecretHikeSpotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretHikeSpotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A087C7288AC789003BCC85 /* PlacesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesList.swift; sourceTree = "<group>"; };
 		83A087CA288AC7B8003BCC85 /* HikeSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeSpot.swift; sourceTree = "<group>"; };
 		83C497D628A9938D002AE672 /* PlacesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListViewModel.swift; sourceTree = "<group>"; };
@@ -66,6 +86,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38EDF23C296AD21B004415FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83A08790288AC767003BCC85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,21 +108,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A087B0288AC769003BCC85 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38EDF240296AD21B004415FA /* SecretHikeSpotsXCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38EDF24D296AD3A2004415FA /* Screens */,
+				38EDF24C296AD399004415FA /* Steps */,
+				38EDF24B296AD391004415FA /* Tests */,
+				38EDF24A296AD383004415FA /* Support */,
+			);
+			path = SecretHikeSpotsXCUITests;
+			sourceTree = "<group>";
+		};
+		38EDF24A296AD383004415FA /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				38EDF241296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift */,
+				38EDF24E296AD3EC004415FA /* Screen.swift */,
+				38EDF25C296B571A004415FA /* LongSwipe.swift */,
+				38EDF25E296C8CA7004415FA /* RandomName.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		38EDF24B296AD391004415FA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38EDF250296AD417004415FA /* HikingSpotTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		38EDF24C296AD399004415FA /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				38EDF252296AD447004415FA /* HikingSpotSteps.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		38EDF24D296AD3A2004415FA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				38EDF254296AD461004415FA /* HomeScreen.swift */,
+				38EDF256296AD476004415FA /* MapViewScreen.swift */,
+				38EDF258296AD486004415FA /* LocationAlertScreen.swift */,
+				38EDF25A296AD4A1004415FA /* AddLocationHudScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		83A0878A288AC767003BCC85 = {
 			isa = PBXGroup;
 			children = (
 				83A08795288AC767003BCC85 /* SecretHikeSpots */,
 				83A087AC288AC769003BCC85 /* PlacesToVisitAppTests */,
+				38EDF240296AD21B004415FA /* SecretHikeSpotsXCUITests */,
 				83A08794288AC767003BCC85 /* Products */,
 				83D4F253288ACBB800BC268B /* Frameworks */,
 			);
@@ -106,7 +176,7 @@
 			children = (
 				83A08793288AC767003BCC85 /* SecretHikeSpots.app */,
 				83A087A9288AC769003BCC85 /* SecretHikeSpotsTests.xctest */,
-				83A087B3288AC769003BCC85 /* SecretHikeSpotsUITests.xctest */,
+				38EDF23F296AD21B004415FA /* SecretHikeSpotsXCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +247,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		38EDF23E296AD21B004415FA /* SecretHikeSpotsXCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EDF247296AD21B004415FA /* Build configuration list for PBXNativeTarget "SecretHikeSpotsXCUITests" */;
+			buildPhases = (
+				38EDF23B296AD21B004415FA /* Sources */,
+				38EDF23C296AD21B004415FA /* Frameworks */,
+				38EDF23D296AD21B004415FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38EDF246296AD21B004415FA /* PBXTargetDependency */,
+			);
+			name = SecretHikeSpotsXCUITests;
+			productName = SecretHikeSpotsXCUITests;
+			productReference = 38EDF23F296AD21B004415FA /* SecretHikeSpotsXCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		83A08792288AC767003BCC85 /* SecretHikeSpots */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83A087BD288AC769003BCC85 /* Build configuration list for PBXNativeTarget "SecretHikeSpots" */;
@@ -212,24 +300,6 @@
 			productReference = 83A087A9288AC769003BCC85 /* SecretHikeSpotsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		83A087B2288AC769003BCC85 /* SecretHikeSpotsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83A087C3288AC769003BCC85 /* Build configuration list for PBXNativeTarget "SecretHikeSpotsUITests" */;
-			buildPhases = (
-				83A087AF288AC769003BCC85 /* Sources */,
-				83A087B0288AC769003BCC85 /* Frameworks */,
-				83A087B1288AC769003BCC85 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83A087B5288AC769003BCC85 /* PBXTargetDependency */,
-			);
-			name = SecretHikeSpotsUITests;
-			productName = PlacesToVisitAppUITests;
-			productReference = 83A087B3288AC769003BCC85 /* SecretHikeSpotsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -237,17 +307,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					38EDF23E296AD21B004415FA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 83A08792288AC767003BCC85;
+					};
 					83A08792288AC767003BCC85 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					83A087A8288AC769003BCC85 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 83A08792288AC767003BCC85;
-					};
-					83A087B2288AC769003BCC85 = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 83A08792288AC767003BCC85;
 					};
@@ -268,12 +338,19 @@
 			targets = (
 				83A08792288AC767003BCC85 /* SecretHikeSpots */,
 				83A087A8288AC769003BCC85 /* SecretHikeSpotsTests */,
-				83A087B2288AC769003BCC85 /* SecretHikeSpotsUITests */,
+				38EDF23E296AD21B004415FA /* SecretHikeSpotsXCUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		38EDF23D296AD21B004415FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83A08791288AC767003BCC85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,16 +367,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A087B1288AC769003BCC85 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		38EDF23B296AD21B004415FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EDF25B296AD4A1004415FA /* AddLocationHudScreen.swift in Sources */,
+				38EDF25D296B571A004415FA /* LongSwipe.swift in Sources */,
+				38EDF242296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift in Sources */,
+				38EDF255296AD461004415FA /* HomeScreen.swift in Sources */,
+				38EDF259296AD486004415FA /* LocationAlertScreen.swift in Sources */,
+				38EDF253296AD447004415FA /* HikingSpotSteps.swift in Sources */,
+				38EDF251296AD417004415FA /* HikingSpotTests.swift in Sources */,
+				38EDF25F296C8CA7004415FA /* RandomName.swift in Sources */,
+				38EDF24F296AD3EC004415FA /* Screen.swift in Sources */,
+				38EDF257296AD476004415FA /* MapViewScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83A0878F288AC767003BCC85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,25 +414,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83A087AF288AC769003BCC85 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		38EDF246296AD21B004415FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A08792288AC767003BCC85 /* SecretHikeSpots */;
+			targetProxy = 38EDF245296AD21B004415FA /* PBXContainerItemProxy */;
+		};
 		83A087AB288AC769003BCC85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 83A08792288AC767003BCC85 /* SecretHikeSpots */;
 			targetProxy = 83A087AA288AC769003BCC85 /* PBXContainerItemProxy */;
-		};
-		83A087B5288AC769003BCC85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 83A08792288AC767003BCC85 /* SecretHikeSpots */;
-			targetProxy = 83A087B4288AC769003BCC85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -361,6 +441,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		38EDF248296AD21B004415FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFA4V63C8D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.gail.SecretHikeSpotsXCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecretHikeSpots;
+			};
+			name = Debug;
+		};
+		38EDF249296AD21B004415FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KFA4V63C8D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.gail.SecretHikeSpotsXCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SecretHikeSpots;
+			};
+			name = Release;
+		};
 		83A087BB288AC769003BCC85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -482,13 +598,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M999CM95TV;
+				DEVELOPMENT_TEAM = KFA4V63C8D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SecretHikeSpots/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -509,13 +626,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M999CM95TV;
+				DEVELOPMENT_TEAM = KFA4V63C8D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SecretHikeSpots/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -569,45 +687,18 @@
 			};
 			name = Release;
 		};
-		83A087C4288AC769003BCC85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M999CM95TV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = komoot.ios.PlacesToVisitAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PlacesToVisitApp;
-			};
-			name = Debug;
-		};
-		83A087C5288AC769003BCC85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M999CM95TV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = komoot.ios.PlacesToVisitAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PlacesToVisitApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38EDF247296AD21B004415FA /* Build configuration list for PBXNativeTarget "SecretHikeSpotsXCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38EDF248296AD21B004415FA /* Debug */,
+				38EDF249296AD21B004415FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		83A0878E288AC767003BCC85 /* Build configuration list for PBXProject "SecretHikeSpots" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -631,15 +722,6 @@
 			buildConfigurations = (
 				83A087C1288AC769003BCC85 /* Debug */,
 				83A087C2288AC769003BCC85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83A087C3288AC769003BCC85 /* Build configuration list for PBXNativeTarget "SecretHikeSpotsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83A087C4288AC769003BCC85 /* Debug */,
-				83A087C5288AC769003BCC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -124,11 +124,13 @@ final class LocationPickerViewController: UIViewController {
         self.navigationDelegate?.locationPickerViewController(
           self, wantsToStore: location, with: name)
       })
+      
+      saveAction.setValue(UIColor.blue, forKey: "titleTextColor")
 
     activeSaveAction = saveAction
 
     let cancelAction = UIAlertAction(
-      title: "Cancel", style: .default,
+      title: "Cancel", style: .destructive,
       handler: {
         (action: UIAlertAction!) -> Void in
       })
