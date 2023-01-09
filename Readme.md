@@ -6,7 +6,7 @@ This repository hosts the challenge for Gail Phillips applying for the Automated
 
     Create a hiking spot - can be automated as this feature is within the app and has a clear user journey and can be performed repeatedly. 
     Delete a hiking spot - this can be automated too as it can be included in the UI tests for hiking spot creation. I would suggest this is also manually tested occasionally too (maybe as new O/S's are released) as it is a very specific swipe action animation. 
-    Scroll through the list of hiking spots - this can be automated too as it can be included in the UI tests for hiking spot creation. I would suggest this is also manually tested occasionally too (maybe as new O/S's are released) as it is good to have a visual check of this feature or screenshot automation could be implemented. 
+    Scroll through the list of hiking spots - this can be automated too as it can be included in the UI tests for hiking spot creation. I would suggest this is also manually tested occasionally too as it is good to have a visual check of this feature or screenshot automation could be implemented. 
     Integration with other navigation apps to navigate to the spot. - I would suggest manually testing this feature to validate how the tool is working in conjunction with the rest of the application workflow, writing tests that integrate with third parties may not be stable or give much return on investment. 
   
 
