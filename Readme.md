@@ -3,7 +3,10 @@
 This repository hosts the challenge for Gail Phillips applying for the Automated Tester - iOS role.
 
 Gail Phillips - My Hiking Spot Challenge first commit video
-https://www.loom.com/share/c095bd4bade74fe5a370d1eccb599491  
+https://www.loom.com/share/c095bd4bade74fe5a370d1eccb599491 
+
+Gail Phillips - My Hiking Spot Challenge final commit video
+https://www.loom.com/share/f45ed94267194412956f1815be9d953e 
 
 ## Tests at different levels 
 
@@ -21,10 +24,14 @@ https://www.loom.com/share/c095bd4bade74fe5a370d1eccb599491
 ## Bugs improvements etc 
 
 ### While testing the app I have found some issues such as: 
-    Several different accessibility issues but the one which I had to fix to save my eyesight was the word SAVE on the location name dialog box. I resolved this by changing the word SAVE to blue and the word CANCEL to red as it is a destructive action. 
-    There was a crash that occured when a location was not selected and the SAVE button was clicked, this crashed the app due to line 183 in the LocationPickerViewController fatalerror.
-    The map could be improved and even though location was taken it was never used by the UI in any way. 
-    I did find the tutorial button was interferring with the location permissions in my tests and this issue I would solve by suggesting to the team that we not have two action dialogs displaying at the same time on top of each other or if it is desired then I would write a script that would allow for this eventuallity. 
+
+* Several different accessibility issues but the one which I had to fix to save my eyesight was the word SAVE on the location name dialog box. I resolved this by changing the word SAVE to blue and the word CANCEL to red as it is a destructive action. 
+
+* There was a crash that occured when a location was not selected and the SAVE button was clicked, this crashed the app due to line 183 in the LocationPickerViewController fatalerror.
+
+* The map could be improved and even though location was taken it was never used by the UI in any way. 
+
+* I did find the tutorial button was interferring with the location permissions in my tests and this issue I would solve by suggesting to the team that we not have two action dialogs displaying at the same time on top of each other or if it is desired then I would write a script that would allow for this eventuallity. 
 
 ## 5 tests which I consider should be automated as UI tests and run before every release. Justifing my decision.
 
