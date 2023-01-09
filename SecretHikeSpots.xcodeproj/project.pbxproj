@@ -16,6 +16,7 @@
 		38EDF259296AD486004415FA /* LocationAlertScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF258296AD486004415FA /* LocationAlertScreen.swift */; };
 		38EDF25B296AD4A1004415FA /* AddLocationHudScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF25A296AD4A1004415FA /* AddLocationHudScreen.swift */; };
 		38EDF25D296B571A004415FA /* LongSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF25C296B571A004415FA /* LongSwipe.swift */; };
+		38EDF25F296C8CA7004415FA /* RandomName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDF25E296C8CA7004415FA /* RandomName.swift */; };
 		833C46D1289A729200E07768 /* PickerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C46D0289A729100E07768 /* PickerOverlay.swift */; };
 		833C46D3289A731B00E07768 /* HikeSportServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833C46D2289A731B00E07768 /* HikeSportServiceTests.swift */; };
 		83507CBB288EBE4500954A78 /* LocationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83507CBA288EBE4500954A78 /* LocationPickerViewController.swift */; };
@@ -62,6 +63,7 @@
 		38EDF258296AD486004415FA /* LocationAlertScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlertScreen.swift; sourceTree = "<group>"; };
 		38EDF25A296AD4A1004415FA /* AddLocationHudScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationHudScreen.swift; sourceTree = "<group>"; };
 		38EDF25C296B571A004415FA /* LongSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongSwipe.swift; sourceTree = "<group>"; };
+		38EDF25E296C8CA7004415FA /* RandomName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomName.swift; sourceTree = "<group>"; };
 		833C46D0289A729100E07768 /* PickerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerOverlay.swift; sourceTree = "<group>"; };
 		833C46D2289A731B00E07768 /* HikeSportServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeSportServiceTests.swift; sourceTree = "<group>"; };
 		83507CBA288EBE4500954A78 /* LocationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				38EDF241296AD21B004415FA /* SecretHikeSpotsXCUITestsBase.swift */,
 				38EDF24E296AD3EC004415FA /* Screen.swift */,
 				38EDF25C296B571A004415FA /* LongSwipe.swift */,
+				38EDF25E296C8CA7004415FA /* RandomName.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				38EDF259296AD486004415FA /* LocationAlertScreen.swift in Sources */,
 				38EDF253296AD447004415FA /* HikingSpotSteps.swift in Sources */,
 				38EDF251296AD417004415FA /* HikingSpotTests.swift in Sources */,
+				38EDF25F296C8CA7004415FA /* RandomName.swift in Sources */,
 				38EDF24F296AD3EC004415FA /* Screen.swift in Sources */,
 				38EDF257296AD476004415FA /* MapViewScreen.swift in Sources */,
 			);
@@ -594,7 +598,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M999CM95TV;
+				DEVELOPMENT_TEAM = KFA4V63C8D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SecretHikeSpots/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -622,7 +626,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M999CM95TV;
+				DEVELOPMENT_TEAM = KFA4V63C8D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SecretHikeSpots/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

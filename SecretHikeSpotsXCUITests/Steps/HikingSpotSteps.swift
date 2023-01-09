@@ -4,7 +4,7 @@ import XCTest
 
 extension SecretHikeSpotsXCUITestsBase {
     
-    func givenIHaveAppOpen(){
+    func givenIHaveTheAppOpen(){
         HomeScreen.myHikingSpotsHeader.waitForExistence(timeout: 10)
         XCTAssertTrue(HomeScreen.myHikingSpotsHeader.exists)
     }
@@ -51,8 +51,38 @@ extension SecretHikeSpotsXCUITestsBase {
     func thenIShouldHaveCreatedAHikingSpot(){
         HomeScreen.saveHikingSpotCellsGlasvegas.waitForExistence(timeout: 10)
     }
+    
+    func andICreateAnotherHikingSpot(){
+        HomeScreen.myHikingSpotsHeader.waitForExistence(timeout: 10)
+        HomeScreen.diamondActionButton.tap()
+        MapViewScreen.saveThisSpotButton.waitForExistence(timeout: 2)
+        app.tap()
+        app.coordinate(withNormalizedOffset: CGVector(dx: 100, dy: 222)).tap()
+        MapViewScreen.saveThisSpotButton.tap()
+        AddCurrentLocationDialogScreen.addCurrentLocationDialogTextField.typeText(randomString(length: 6))
+        AddCurrentLocationDialogScreen.addCurrentLocationDialogSaveButton.tap()
+        HomeScreen.myHikingSpotsHeader.waitForExistence(timeout: 10)
+    }
+    
+    func whenICreateAnotherHikingSpot(){
+        HomeScreen.myHikingSpotsHeader.waitForExistence(timeout: 10)
+        HomeScreen.diamondActionButton.tap()
+        MapViewScreen.saveThisSpotButton.waitForExistence(timeout: 2)
+        app.tap()
+        app.coordinate(withNormalizedOffset: CGVector(dx: 100, dy: 222)).tap()
+        MapViewScreen.saveThisSpotButton.tap()
+        AddCurrentLocationDialogScreen.addCurrentLocationDialogTextField.typeText("Top Spot")
+        AddCurrentLocationDialogScreen.addCurrentLocationDialogSaveButton.tap()
+        HomeScreen.myHikingSpotsHeader.waitForExistence(timeout: 10)
+    }
+    
+    func thenIshouldBeAbleToScrollThroughTheList(){
+        HomeScreen.saveHikingSpotCellsTopSpot.waitForExistence(timeout: 10)
+        HomeScreen.saveHikingSpotCellsTopSpot.swipeUp()
+        HomeScreen.saveHikingSpotCellsGlasvegas.waitForExistence(timeout: 10)
+    }
 
-    func givenIHaveHikingSpotsSaved(){
+    func givenIHaveAHikingSpotsSaved(){
         HomeScreen.myHikingSpotsHeader.waitForExistence(timeout: 10)
         HomeScreen.diamondActionButton.tap()
         addUIInterruptionMonitor(withDescription: "Allow “SecretHikeSpots” to use your location?") { (alert) -> Bool in
@@ -63,7 +93,7 @@ extension SecretHikeSpotsXCUITestsBase {
             return false
         }
         app.tap()
-        
+        MapViewScreen.saveThisSpotButton.waitForExistence(timeout: 2)
         app.coordinate(withNormalizedOffset: CGVector(dx: 100, dy: 222)).tap()
         MapViewScreen.saveThisSpotButton.waitForExistence(timeout: 2)
         MapViewScreen.saveThisSpotButton.tap()
